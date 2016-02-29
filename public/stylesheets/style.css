@@ -1,0 +1,45 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+.add{
+    display: none;
+}
+
+.home:hover{
+  opacity:0.5;
+}
+
+.home:hover button {
+    display: inline;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 60px;
+    border-radius: 1em;
+}
+
+.trade-requests{
+  display:inline-block;
+  margin:10px;
+  padding:5px;
+  border: 1px groove;
+}
+
+.trade-requests:hover{
+  opacity:0.5;
+}
+
+.trade-requests:hover button{
+  display:inline-block;
+  position: absolute;
+  margin-left:50px;
+  margin-right:auto;
+  border: 1px groove;
+}
